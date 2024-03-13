@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FightClub</title>
+</head>
+
+<body>
+
+    <header>
+
+        <div id="navbar">
+
+             <a href="#" id="logo">FightClub.in</a>
+
+             <a href="navibar.html">Account</a>
+
+             <a href="{{ url_for('show_club', club_id=1) }}">Our Clubs</a>
+
+             <a href="#">Contact Us</a>
+
+             <input placeholder="search FightClub.in">
+
+             <button >Fight Club</button>
+
+        </div>
+    </header>
+    <div id="boddy"> 
+
+        <div id="welcome"> welcome to FightClub </div>
+
+        <ul>
+             <li>first rule of FightClub is you do not talk about FightClub
+             </li>
+
+             <li>second rule of FightClub is you do not talk about FightClub</li>
+        </ul>
+
+
+    </div>
+
+
+
+
+
+    <div id="content">
+
+        <div id="box1" class="contentdiv" style="background-color: rgb(66, 5, 77);">The Things you own end up owning you</div>
+
+
+        <div id="box2" class="contentdiv" style="background-color: blueviolet;">every thing is copy is a copy of a copy of a copy</div>
+
+
+        <div id="box3" style="background-color: rgb(255, 0, 195);"> you are not special. you are not beautiful or unique snowflake , you are the same decaying organic matter as everything</div>
+
+
+        <div id="box4" class="contentdiv"></div>
+
+
+        <link rel="stylesheet" href="style2.css">
+
+
+    </div>
+
+    <footer>&#169; 1999-present, FightClub.com</footer>
+
+
+    <link rel="stylesheet" href="#">
+
+
+</body>
+
+
+
+
+<style > 
+
+
+    .contentdiv{
+        height: 33%;
+        width: 33%;
+        border: 2px solid black;
+        display: inline-block;
+        margin: 25px;
+        color: aliceblue;
+        text-align: center;
+        font-size: 1.5em;
+    }
+
+
+    /* header{
+        height: 50px;
+        background-color: palevioletred;
+
+    } */
+    #navbar{
+        height: 60px ;
+
+        background-color: rgb(226, 161, 224);
+
+    }
+    #logo{
+        color: #b00ee6;
+        font-size: 25px;
+    }
+    a{
+        margin-right: 200px;
+        text-decoration: none;
+    }
+    button{
+        color: aliceblue;
+    background-color: #5a0a35;
+    }
+    p{
+        height: 100px;
+        width: 100px;
+        margin-top: 40px;
+        border-radius: 50%;
+        margin-left: 2px;
+    }
+    #content{
+        font-size: small;
+        height: 630px;
+    }
+    footer{                      
+        background-color:  rgb(226, 161, 224);
+    }
+    #box3{
+        position: relative;
+        bottom: 190px;
+        font-size: 1.5em;
+        height: 33%;
+        width: 33%;
+        border: 2px solid black;
+        display: inline-block;
+        margin: 25px;
+        color: aliceblue;
+        text-align: center;
+        background-image: url("static/DUO.jpg");
+        background-size: cover;
+    }
+    #box1{
+        background-image: url("static/fight_Club_logo.jpg");
+        background-size: cover;
+    }
+    #box2{
+       background-image: url("static/Fight_Club_trio.jpg");
+       background-size: cover;
+    }
+    #welcome{
+        text-align: center;
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-bottom: 50px;
+        font-size: larger;
+        text-decoration: line-through;
+        text-transform: capitalize;
+        color: #b00ee6;
+
+    }
+    li{
+        text-decoration: solid;
+        text-transform: capitalize;
+        margin: 10px;
+        color: #c65792;
+    }
+    #box4{
+        background-image: url("static/minute.jpg");
+        background-size: cover;
+        color: #190303;
+        font-size: x-large;
+    }
+
+
+
+
+</style>
+
+</body>
+</html>
